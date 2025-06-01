@@ -13,9 +13,10 @@ return {
         null_ls.builtins.formatting.sqlfmt,
         null_ls.builtins.formatting.gofumpt,
         null_ls.builtins.formatting.golines,
+        null_ls.builtins.diagnostics.hclfmt,
       },
     })
 
-    vim.keymap.set("n", "format", vim.lsp.buf.format, {})
+    vim.keymap.set("n", "fm", vim.lsp.buf.format, {})
   end,
 }

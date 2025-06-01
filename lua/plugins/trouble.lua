@@ -35,23 +35,28 @@ return {
     },
     {
       "fd",
-      "<cmd>Trouble lsp_declarations toggle<cr>",
+      "<cmd>Trouble lsp_declarations toggle focus<cr>",
       desc = "LSP Declarations (Trouble)",
     },
     {
       "fi",
-      "<cmd>Trouble lsp_implementations toggle<cr>",
+      "<cmd>Trouble lsp_implementations toggle focus<cr>",
       desc = "LSP Implementations (Trouble)",
     },
     {
       "fr",
-      "<cmd>Trouble lsp_references toggle<cr>",
+      "<cmd>Trouble lsp_references focus<cr>",
       desc = "LSP References (Trouble)",
     },
     {
       "fdd",
       "<cmd>Trouble lsp_type_definitions toggle<cr>",
       desc = "LSP Type Definitions (Trouble)",
+    },
+    {
+      "fc",
+      "<cmd>close<cr>",
+      desc = "Close Trouble (Trouble)",
     }
   },
   config = function()
